@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="GACEC resources and capabilities — workforce, equipment, and subcontractor network in Djibouti.">
+    <meta name="keywords" content="GACEC resources, equipment, subcontractors, engineering workforce, Djibouti construction">
+    <meta name="author" content="GACEC">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://gaceccon.com/staff.html">
+
+    <title>Resources & Capabilities | GACEC - Engineering Excellence in Djibouti</title>
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#0B1F3B',
+                        surface: '#F6F8FA',
+                        'on-surface': '#0E141B',
+                        navy: '#0B1F3B',
+                        industrial: {
+                            DEFAULT: '#0B1F3B',
+                            light: '#4A5B6A',
+                            dark: '#061428'
+                        },
+                        safety: {
+                            DEFAULT: '#3B7A57',
+                            vivid: '#2F6B4B'
+                        },
+                        concrete: {
+                            light: '#F6F8FA',
+                            DEFAULT: '#E9EEF3',
+                            dark: '#D6DEE6'
+                        }
+                    },
+                    fontFamily: {
+                        heading: ['"IBM Plex Sans"', 'sans-serif'],
+                        body: ['"Source Sans 3"', 'sans-serif'],
+                        mono: ['"IBM Plex Mono"', 'monospace']
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Source+Sans+3:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/theme.css">
+
+    <!-- Custom Styles -->
+    <style>
+        /* Resource table */
+        .resource-table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 0;
+            border: 1px solid rgba(45,107,122, 0.15);
+            border-radius: 1rem;
+            overflow: hidden;
+            box-shadow: 0 4px 24px -8px rgba(26,63,72, 0.18);
+        }
+        .resource-table thead {
+            background: linear-gradient(135deg, #3B7A57, #0B1F3B);
+        }
+        .resource-table thead th {
+            color: #fff;
+            font-family: var(--font-serif);
+            font-weight: 600;
+            font-size: 0.875rem;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            padding: 1rem 1.25rem;
+            text-align: left;
+            border-bottom: 1px solid rgba(255,255,255,0.12);
+        }
+        .resource-table tbody tr {
+            border-bottom: 1px solid rgba(45,107,122, 0.1);
+            transition: background .2s ease;
+        }
+        .resource-table tbody tr:last-child {
+            border-bottom: none;
+        }
+        .resource-table tbody tr:hover {
+            background: rgba(45,107,122, 0.04);
+        }
+        .resource-table tbody td {
+            padding: 1rem 1.25rem;
+            vertical-align: top;
+            color: #5a6670;
+            font-size: 0.9rem;
+            line-height: 1.6;
+        }
+        .resource-table tbody td:first-child {
+            font-weight: 600;
+            color: #3B7A57;
+            white-space: nowrap;
+        }
+        /* Status badge */
+        .status-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
+            background: rgba(45,107,122, 0.08);
+            color: #3B7A57;
+            font-size: 0.8rem;
+            font-weight: 600;
+            padding: 0.3rem 0.75rem;
+            border-radius: 9999px;
+            white-space: nowrap;
+        }
+        .status-badge .dot {
+            width: 7px;
+            height: 7px;
+            border-radius: 50%;
+            background: #3B7A57;
+        }
+        .status-badge.strong {
+            background: rgba(194,117,48, 0.1);
+            color: #2F6B4B;
+        }
+        .status-badge.strong .dot {
+            background: #3B7A57;
+        }
+
+        /* Responsive: stack on mobile */
+        @media (max-width: 639px) {
+            .resource-table { border-radius: 0.75rem; }
+            .resource-table thead { display: none; }
+            .resource-table tbody tr {
+                display: flex;
+                flex-direction: column;
+                gap: 0.25rem;
+                padding: 1rem 1.25rem;
+                border-bottom: 1px solid rgba(45,107,122, 0.12);
+            }
+            .resource-table tbody td {
+                padding: 0;
+            }
+            .resource-table tbody td:first-child::before {
+                content: '';
+                display: block;
+                width: 2.5rem;
+                height: 3px;
+                background: #3B7A57;
+                border-radius: 2px;
+                margin-bottom: 0.35rem;
+            }
+            .resource-table tbody td:nth-child(2)::before {
+                content: attr(data-label);
+                display: block;
+                font-size: 0.7rem;
+                font-weight: 600;
+                text-transform: uppercase;
+                letter-spacing: 0.06em;
+                color: #3B7A57;
+                opacity: 0.6;
+                margin-bottom: 0.15rem;
+            }
+            .resource-table tbody td:nth-child(3)::before {
+                content: attr(data-label);
+                display: block;
+                font-size: 0.7rem;
+                font-weight: 600;
+                text-transform: uppercase;
+                letter-spacing: 0.06em;
+                color: #3B7A57;
+                opacity: 0.6;
+                margin-bottom: 0.15rem;
+            }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            .resource-table tbody tr { transition: none; }
+        }
+    </style>
+</head>
+<body class="bg-white">
+    <!-- ========== NAVIGATION ========== -->
+    <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-industrial">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <a href="index.html" class="flex items-center space-x-3">
+                    <img src="images/logo24.png" alt="GACEC Logo" class="nav-logo-img">
+                    <div>
+                        <span class="text-white font-heading font-bold text-xl tracking-tight">GACEC</span>
+                        <span class="hidden sm:block text-gray-300 text-xs">Engineering Excellence</span>
+                    </div>
+                </a>
+
+                <div class="hidden lg:flex items-center space-x-8">
+                    <a href="index.html" class="text-gray-300 font-medium hover:text-safety transition-colors relative group">Home<span class="absolute bottom-0 left-0 w-full h-0.5 bg-safety transform scale-x-0 group-hover:scale-x-100 transition-transform"></span></a>
+                    <a href="book.html" class="text-gray-300 font-medium hover:text-safety transition-colors relative group">Company<span class="absolute bottom-0 left-0 w-full h-0.5 bg-safety transform scale-x-0 group-hover:scale-x-100 transition-transform"></span></a>
+                    <a href="services.html" class="text-gray-300 font-medium hover:text-safety transition-colors relative group">Services<span class="absolute bottom-0 left-0 w-full h-0.5 bg-safety transform scale-x-0 group-hover:scale-x-100 transition-transform"></span></a>
+                    <a href="projects.html" class="text-gray-300 font-medium hover:text-safety transition-colors relative group">Projects<span class="absolute bottom-0 left-0 w-full h-0.5 bg-safety transform scale-x-0 group-hover:scale-x-100 transition-transform"></span></a>
+                    <a href="staff.html" class="text-white font-medium hover:text-safety transition-colors relative group">Resources<span class="absolute bottom-0 left-0 w-full h-0.5 bg-safety transform scale-x-100 transition-transform"></span></a>
+                    <a href="gallery.html" class="text-gray-300 font-medium hover:text-safety transition-colors relative group">Gallery<span class="absolute bottom-0 left-0 w-full h-0.5 bg-safety transform scale-x-0 group-hover:scale-x-100 transition-transform"></span></a>
+                    <a href="contact.html" class="bg-safety hover:bg-safety-vivid text-white px-6 py-3 rounded-lg font-semibold transition-all btn-primary">Contact</a>
+                </div>
+
+                <button id="mobile-menu-btn" class="lg:hidden text-white p-2" aria-label="Toggle mobile menu">
+                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path id="menu-icon" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                </button>
+            </div>
+
+            <div id="mobile-menu" class="mobile-menu lg:hidden bg-industrial-dark rounded-b-xl">
+                <div class="px-4 py-6 space-y-4">
+                    <a href="index.html" class="block text-gray-300 font-medium py-2 hover:text-safety transition-colors pl-4">Home</a>
+                    <a href="book.html" class="block text-gray-300 font-medium py-2 hover:text-safety transition-colors pl-4">Company</a>
+                    <a href="services.html" class="block text-gray-300 font-medium py-2 hover:text-safety transition-colors pl-4">Services</a>
+                    <a href="projects.html" class="block text-gray-300 font-medium py-2 hover:text-safety transition-colors pl-4">Projects</a>
+                    <a href="staff.html" class="block text-white font-medium py-2 border-l-4 border-safety pl-4">Resources</a>
+                    <a href="gallery.html" class="block text-gray-300 font-medium py-2 hover:text-safety transition-colors pl-4">Gallery</a>
+                    <a href="contact.html" class="block bg-safety text-white text-center py-3 rounded-lg font-semibold mt-4">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ========== PAGE HEADER ========== -->
+    <section class="relative h-screen min-h-[700px] overflow-hidden">
+        <img src="images/new/optimized/villa-2.webp" alt="" class="page-header-bg" style="object-position: center 40%;" loading="eager" decoding="async" fetchpriority="high">
+        <div class="page-header-overlay"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center page-hero-card">
+                <nav class="flex justify-center mb-6" aria-label="Breadcrumb">
+                    <ol class="flex items-center space-x-2 text-sm">
+                        <li><a href="index.html" class="text-gray-400 hover:text-safety transition-colors">Home</a></li>
+                        <li><span class="text-gray-500">/</span></li>
+                        <li><span class="text-safety">Resources & Capabilities</span></li>
+                    </ol>
+                </nav>
+
+                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-heading font-bold text-white mb-6">
+                    Resources & <span class="text-safety">Capabilities</span>
+                </h1>
+                <p id="staff-description" class="text-xl text-gray-300 max-w-3xl mx-auto">
+
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== WORKFORCE ========== -->
+    <section class="py-20 lg:py-28" style="background: linear-gradient(180deg, #fff 0%, #f4f9fa 100%);">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <!-- Header -->
+            <div class="mb-10 fade-in">
+                <span class="section-pill">Workforce</span>
+                <h2 class="text-2xl sm:text-3xl lg:text-4xl font-heading font-bold text-industrial mb-3">
+                    Engineering & Technical <span class="text-safety">Workforce</span>
+                </h2>
+                <p class="text-industrial-light max-w-2xl">
+                    Experienced engineers, supervisors, and skilled technicians — structured for rapid mobilisation and full project lifecycle coverage.
+                </p>
+            </div>
+
+            <!-- Table -->
+            <div class="overflow-x-auto fade-in">
+                <table class="resource-table">
+                    <thead>
+                        <tr>
+                            <th style="width:22%">Role & Category</th>
+                            <th style="width:48%">Description & Detail</th>
+                            <th style="width:30%">Availability</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="flex items-center gap-3">
+                                    <span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-safety text-white text-xs font-bold">1</span>
+                                    <span>Engineering Workforce</span>
+                                </div>
+                            </td>
+                            <td data-label="Description">Civil, Mechanical, and Electrical engineers plus on-site supervisors available for immediate assignment.</td>
+                            <td data-label="Availability"><span class="status-badge">
+                                <span class="dot"></span>
+                                5 Engineers + 6 Supervisors
+                            </span></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="flex items-center gap-3">
+                                    <span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-safety text-white text-xs font-bold">2</span>
+                                    <span>Local Teams — Djibouti</span>
+                                </div>
+                            </td>
+                            <td data-label="Description">On-the-ground engineering and technical teams dedicated to site coordination and initial supervision.</td>
+                            <td data-label="Availability"><span class="status-badge">
+                                <span class="dot"></span>
+                                Core team of 5 on-site
+                            </span></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="flex items-center gap-3">
+                                    <span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-safety text-white text-xs font-bold">3</span>
+                                    <span>Specialist Roles</span>
+                                </div>
+                            </td>
+                            <td data-label="Description">Certified professionals in Project Management (PMP) and Construction Design for planning and execution.</td>
+                            <td data-label="Availability"><span class="status-badge">
+                                <span class="dot"></span>
+                                1 PMP Engineer + 1 Civil Designer
+                            </span></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="flex items-center gap-3">
+                                    <span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-safety text-white text-xs font-bold">4</span>
+                                    <span>Technicians & Skilled Labour</span>
+                                </div>
+                            </td>
+                            <td data-label="Description">Hands-on technicians and skilled labourers covering fabrication, installation, and finishing across all trades.</td>
+                            <td data-label="Availability"><span class="status-badge">
+                                <span class="dot"></span>
+                                15 Technicians & Labourers
+                            </span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== EQUIPMENT & TECHNICAL ASSETS ========== -->
+    <section class="py-20 lg:py-28 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <!-- Header -->
+            <div class="mb-10 fade-in">
+                <span class="section-pill">Equipment</span>
+                <h2 class="text-2xl sm:text-3xl lg:text-4xl font-heading font-bold text-industrial mb-3">
+                    Engineering & Construction <span class="text-safety">Equipment</span>
+                </h2>
+                <p class="text-industrial-light max-w-2xl">
+                    A full inventory of surveying instruments, heavy machinery, software tools, and transport assets deployed across our active sites.
+                </p>
+            </div>
+
+            <!-- Table -->
+            <div class="overflow-x-auto fade-in">
+                <table class="resource-table">
+                    <thead>
+                        <tr>
+                            <th style="width:22%">Equipment Category</th>
+                            <th style="width:48%">Description & Detail</th>
+                            <th style="width:30%">Availability Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="flex items-center gap-3">
+                                    <span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-safety text-white text-xs font-bold">1</span>
+                                    <span>Surveying & Site Equipment</span>
+                                </div>
+                            </td>
+                            <td data-label="Description">Total Stations, GPS devices, and laser levels.</td>
+                            <td data-label="Status"><span class="status-badge">
+                                <span class="dot"></span>
+                                Available — ready for on-site calibration
+                            </span></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="flex items-center gap-3">
+                                    <span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-safety text-white text-xs font-bold">2</span>
+                                    <span>Essential Construction Equipment</span>
+                                </div>
+                            </td>
+                            <td data-label="Description">Steel formwork / scaffolding, concrete mixers, concrete pumps, compactors / rammers, and cranes / hoists.</td>
+                            <td data-label="Status"><span class="status-badge">
+                                <span class="dot"></span>
+                                3 mixers &amp; 1 tower crane currently available — quantities scale to project scope
+                            </span></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="flex items-center gap-3">
+                                    <span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-safety text-white text-xs font-bold">3</span>
+                                    <span>Design & Analysis Software</span>
+                                </div>
+                            </td>
+                            <td data-label="Description">Licensed structural design software and project management platforms.</td>
+                            <td data-label="Status"><span class="status-badge">
+                                <span class="dot"></span>
+                                Active licenses in place
+                            </span></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="flex items-center gap-3">
+                                    <span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-safety text-white text-xs font-bold">4</span>
+                                    <span>Vehicles & Transportation</span>
+                                </div>
+                            </td>
+                            <td data-label="Description">Light trucks and 4×4 off-road vehicles for site logistics and crew mobility.</td>
+                            <td data-label="Status"><span class="status-badge">
+                                <span class="dot"></span>
+                                4 vehicles allocated for Djibouti sites
+                            </span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SUBCONTRACTOR & SUPPLIER NETWORK ========== -->
+    <section class="py-20 lg:py-28" style="background: linear-gradient(180deg, #f4f9fa 0%, #eef5f6 100%);">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <!-- Header -->
+            <div class="mb-10 fade-in">
+                <span class="section-pill">Network</span>
+                <h2 class="text-2xl sm:text-3xl lg:text-4xl font-heading font-bold text-industrial mb-3">
+                    Subcontractor & Supplier <span class="text-safety">Network</span>
+                </h2>
+                <p class="text-industrial-light max-w-2xl">
+                    A trusted ecosystem of vetted local subcontractors, approved material suppliers, and specialist consultants that accelerates every project.
+                </p>
+            </div>
+
+            <!-- Table -->
+            <div class="overflow-x-auto fade-in">
+                <table class="resource-table">
+                    <thead>
+                        <tr>
+                            <th style="width:22%">Element</th>
+                            <th style="width:48%">Description & Detail</th>
+                            <th style="width:30%">Responsiveness</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="flex items-center gap-3">
+                                    <span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-safety text-white text-xs font-bold">1</span>
+                                    <span>Subcontractor Network</span>
+                                </div>
+                            </td>
+                            <td data-label="Description">Specialized local and regional construction companies covering structural, MEP, and finishing work.</td>
+                            <td data-label="Responsiveness"><span class="status-badge strong">
+                                <span class="dot"></span>
+                                5 pre-approved local subcontractors in Djibouti
+                            </span></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="flex items-center gap-3">
+                                    <span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-safety text-white text-xs font-bold">2</span>
+                                    <span>Approved Suppliers</span>
+                                </div>
+                            </td>
+                            <td data-label="Description">Vetted suppliers for concrete, steel, aggregates, and all core building materials.</td>
+                            <td data-label="Responsiveness"><span class="status-badge strong">
+                                <span class="dot"></span>
+                                Material delivery within 72 hours of order
+                            </span></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="flex items-center gap-3">
+                                    <span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-safety text-white text-xs font-bold">3</span>
+                                    <span>Specialized Consultants</span>
+                                </div>
+                            </td>
+                            <td data-label="Description">External experts engaged for complex structural analysis, geotechnical studies, or compliance auditing.</td>
+                            <td data-label="Responsiveness"><span class="status-badge strong">
+                                <span class="dot"></span>
+                                International consultants contracted on demand
+                            </span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== PROJECT REFERENCES ========== -->
+    <section class="py-20 lg:py-28 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <!-- Header -->
+            <div class="mb-10 fade-in">
+                <span class="section-pill">References</span>
+                <h2 class="text-2xl sm:text-3xl lg:text-4xl font-heading font-bold text-industrial mb-3">
+                    Project <span class="text-safety">References</span>
+                </h2>
+                <p class="text-industrial-light max-w-2xl">
+                    A record of completed and ongoing projects with verified client contacts. Phone numbers are kept private — request verification through our contact page.
+                </p>
+            </div>
+
+            <!-- Table -->
+            <div class="overflow-x-auto fade-in">
+                <table class="resource-table">
+                    <thead>
+                        <tr>
+                            <th style="width:12%">Ref No</th>
+                            <th style="width:44%">Project Name</th>
+                            <th style="width:44%">Client</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-safety text-white text-xs font-bold">1</span></td>
+                            <td data-label="Project">Mr. AbdulKarim Ahmed Hotel</td>
+                            <td data-label="Client"><span class="status-badge">
+                                <span class="dot"></span>
+                                Mr. AbdulKarim Ahmed
+                            </span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-safety text-white text-xs font-bold">2</span></td>
+                            <td data-label="Project">A lWalid Company</td>
+                            <td data-label="Client"><span class="status-badge">
+                                <span class="dot"></span>
+                                Mr. Amar AlZumaiker
+                            </span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-safety text-white text-xs font-bold">3</span></td>
+                            <td data-label="Project">Dicoo Mobelia</td>
+                            <td data-label="Client"><span class="status-badge">
+                                <span class="dot"></span>
+                                Mr. Mohame Ali
+                            </span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-safety text-white text-xs font-bold">4</span></td>
+                            <td data-label="Project">Mr. Mohamed Qemaneh</td>
+                            <td data-label="Client"><span class="status-badge">
+                                <span class="dot"></span>
+                                Mr. Mohamed Qemaneh
+                            </span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-safety text-white text-xs font-bold">5</span></td>
+                            <td data-label="Project">Hamoudi Commercial Center</td>
+                            <td data-label="Client"><span class="status-badge">
+                                <span class="dot"></span>
+                                Bazel Albazly
+                            </span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-safety text-white text-xs font-bold">6</span></td>
+                            <td data-label="Project">ALRayan Mall</td>
+                            <td data-label="Client"><span class="status-badge">
+                                <span class="dot"></span>
+                                ALRayan Mall
+                            </span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-safety text-white text-xs font-bold">7</span></td>
+                            <td data-label="Project">Minister of Labor CNSS</td>
+                            <td data-label="Client"><span class="status-badge">
+                                <span class="dot"></span>
+                                Mr. Yehya Awaly
+                            </span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-safety text-white text-xs font-bold">8</span></td>
+                            <td data-label="Project">Binaya-immo Group</td>
+                            <td data-label="Client"><span class="status-badge">
+                                <span class="dot"></span>
+                                Mr. Ismail Shaikh
+                            </span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-safety text-white text-xs font-bold">9</span></td>
+                            <td data-label="Project">ALHIJ ELME GASSOD</td>
+                            <td data-label="Client"><span class="status-badge">
+                                <span class="dot"></span>
+                                ELME GASSOD
+                            </span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Privacy note -->
+            <div class="mt-6 bg-gray-100 rounded-xl px-5 py-4 flex items-start gap-3">
+                <svg class="w-5 h-5 text-industrial flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/>
+                </svg>
+                <p class="text-industrial-light text-sm"><span class="font-semibold text-industrial">Privacy Note —</span> Client phone numbers are not displayed publicly. For verification or official reference checks, please <a href="contact.html" class="text-safety hover:text-safety-vivid font-medium">contact us</a>.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="bg-industrial text-white pt-16 pb-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+                <div>
+                    <div class="flex items-center space-x-3 mb-6">
+                        <img src="images/logo24.png" alt="GACEC Logo" class="w-10 h-10 object-cover rounded-lg">
+                        <div>
+                            <span class="text-white font-heading font-bold text-lg">GACEC</span>
+                            <span class="block text-gray-400 text-xs">Global African Company for Engineering and Construction</span>
+                        </div>
+                    </div>
+                    <p class="text-gray-400 mb-6 leading-relaxed">Global African Company for Engineering and Construction. Building Djibouti’s future with precision, power, and progress since 2004.</p>
+                </div>
+
+                <div>
+                    <h3 class="text-lg font-heading font-semibold mb-6">Quick Links</h3>
+                    <ul class="space-y-3">
+                        <li><a href="book.html" class="text-gray-400 hover:text-safety transition-colors">Company</a></li>
+                        <li><a href="services.html" class="text-gray-400 hover:text-safety transition-colors">Our Services</a></li>
+                        <li><a href="projects.html" class="text-gray-400 hover:text-safety transition-colors">Projects</a></li>
+                        <li><a href="gallery.html" class="text-gray-400 hover:text-safety transition-colors">Gallery</a></li>
+                        <li><a href="contact.html" class="text-gray-400 hover:text-safety transition-colors">Contact</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-safety transition-colors">Careers</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-lg font-heading font-semibold mb-6">Our Services</h3>
+                    <ul class="space-y-3">
+                        <li><a href="services.html#building-construction" class="text-gray-400 hover:text-safety transition-colors">Building Construction</a></li>
+                        <li><a href="services.html#road-infrastructure" class="text-gray-400 hover:text-safety transition-colors">Road &amp; Infrastructure</a></li>
+                        <li><a href="services.html#water-sewage" class="text-gray-400 hover:text-safety transition-colors">Water &amp; Sewage</a></li>
+                        <li><a href="services.html#metal-structures" class="text-gray-400 hover:text-safety transition-colors">Metal/Iron Structures</a></li>
+                        <li><a href="services.html#design-studies" class="text-gray-400 hover:text-safety transition-colors">Design &amp; Studies</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-lg font-heading font-semibold mb-6">Contact</h3>
+                    <ul class="space-y-4">
+                        <li class="flex items-start space-x-3">
+                            <svg class="w-6 h-6 text-safety flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                            </svg>
+                            <span class="text-gray-400">GENEVE STREET, HAJ ELMI GASSOD BUILDING<br>DJIBOUTI</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <svg class="w-6 h-6 text-safety flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                            </svg>
+                            <a href="mailto:eng.khalil@gaceccon.com" class="text-gray-400 hover:text-safety transition-colors">eng.khalil@gaceccon.com</a>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <svg class="w-6 h-6 text-safety flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                            </svg>
+                            <a href="mailto:gacec.cons@gmail.com" class="text-gray-400 hover:text-safety transition-colors">gacec.cons@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

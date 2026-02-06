@@ -1,0 +1,137 @@
+{
+  "projects": [
+    {
+      "id": "apt-840",
+      "title": "840 Apartments",
+      "year": "2020",
+      "category": "Buildings",
+      "type": "Foundations for 27 buildings",
+      "status": "",
+      "client": "Ministry of Planning and Development",
+      "donor": "",
+      "location": "PK-13",
+      "shortDesc": "Foundations for 27 buildings, each 200 square meters.",
+      "fullDesc": "Implementing the foundations for 27 buildings, each building is 200 square meters. Project owner: Ministry of Planning and Development. Implemented by BINAYA-IMMO GROUP.",
+      "imageUrls": [
+        "images/projects_book/book-project-02.webp"
+      ],
+      "tasks": [],
+      "requirements": [],
+      "featured": true
+    },
+    {
+      "id": "rayan-mall",
+      "title": "Rayan Mall",
+      "year": "2020",
+      "category": "Commercial",
+      "type": "Iron ceiling works",
+      "status": "",
+      "client": "Ministry of Awqaf and Islamic Affairs",
+      "donor": "",
+      "location": "Sunflower - Arheba",
+      "shortDesc": "Iron ceiling works for cafeteria, mosque, and administration.",
+      "fullDesc": "Executing the iron ceiling of Al Rayyan Cafeteria, the mosque, and the administration with an area of 1050 square meters. Implemented by GACEC.",
+      "imageUrls": [
+        "images/projects_book/book-project-04.webp"
+      ],
+      "tasks": [],
+      "requirements": [],
+      "featured": true
+    },
+    {
+      "id": "hamoudi-center",
+      "title": "Hamoudi Commercial Center",
+      "year": "2020",
+      "category": "Commercial",
+      "type": "Concrete works, iron ceiling, and design",
+      "status": "",
+      "client": "Ministry of Awqaf and Islamic Affairs",
+      "donor": "",
+      "location": "Plus Rambo",
+      "shortDesc": "Concrete works for first floor, iron ceiling, and design.",
+      "fullDesc": "Implementation of concrete works for the first floor with iron ceiling work and design for the project. Implemented by GACEC.",
+      "imageUrls": [
+        "images/projects_book/book-project-06.webp"
+      ],
+      "tasks": [],
+      "requirements": [],
+      "featured": false
+    },
+    {
+      "id": "hangar-arta",
+      "title": "Hangar, Arta",
+      "year": "2020",
+      "category": "Infrastructure",
+      "type": "Hangar construction",
+      "status": "",
+      "client": "Ministry of Labor CNSS",
+      "donor": "",
+      "location": "Arta Governorate",
+      "shortDesc": "Execution of a 3000 square meter hangar.",
+      "fullDesc": "Execution of the hangar with an area of 3000 square meters. Implemented by GACEC.",
+      "imageUrls": [
+        "images/projects_book/book-project-08.webp"
+      ],
+      "tasks": [],
+      "requirements": [],
+      "featured": false
+    },
+    {
+      "id": "mosque-dikhil",
+      "title": "Mosque Dikhil",
+      "year": "2020",
+      "category": "Religious",
+      "type": "Mosque construction",
+      "status": "",
+      "client": "",
+      "donor": "",
+      "location": "Dikhil",
+      "shortDesc": "Mosque for men and women with annexes and imam's residence - 750 m2.",
+      "fullDesc": "Mosque for men and women, its annexes, and the imam's residence in Mashah - 750 square meters. Implemented by GACEC.",
+      "imageUrls": [
+        "images/projects_book/book-project-12.webp"
+      ],
+      "tasks": [],
+      "requirements": [],
+      "featured": true
+    },
+    {
+      "id": "mosquee-nashroudiin",
+      "title": "Mosquee Nashroudiin",
+      "year": "2020",
+      "category": "Religious",
+      "type": "Mosque construction",
+      "status": "",
+      "client": "",
+      "donor": "",
+      "location": "Djibouti, Plateau de Serpent",
+      "shortDesc": "Mosque with annexes and imam's residence - 1,150 m2.",
+      "fullDesc": "Mosque for men and women, its annexes, and the imam's residence in Mashah - 1,150 square meters. Implemented by GACEC.",
+      "imageUrls": [
+        "images/projects_book/book-project-13.webp"
+      ],
+      "tasks": [],
+      "requirements": [],
+      "featured": false
+    },
+    {
+      "id": "villas-haramous",
+      "title": "4 Villas Duplex and Terrasse",
+      "year": "2020",
+      "category": "Residential",
+      "type": "Residential villas",
+      "status": "",
+      "client": "Zahra Ibrahim Direh",
+      "donor": "Zahra Ibrahim Direh",
+      "location": "Djibouti, Haramous",
+      "shortDesc": "Four villas duplex and terrasse - 1600 m2.",
+      "fullDesc": "4 villas duplex and terrasse with a total area of 1600 square meters. Implemented by GACEC.",
+      "imageUrls": [
+        "images/projects_book/book-project-14.webp"
+      ],
+      "tasks": [],
+      "requirements": [],
+      "featured": false
+    }
+  ]
+}

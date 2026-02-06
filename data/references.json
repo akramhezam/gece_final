@@ -1,0 +1,74 @@
+{
+  "references": [
+    {
+      "id": "ref-1",
+      "project": "840 Apartments",
+      "client": "Ministry of Planning and Development",
+      "donor": "Saudi Development Bank",
+      "location": "PK-13",
+      "year": "2020",
+      "scope": "Implementing 27 buildings, each 200 square meters",
+      "contractor": "Binaya - Immo Group"
+    },
+    {
+      "id": "ref-2",
+      "project": "Rayan Mall",
+      "client": "Ministry of Awqaf and Islamic Affairs",
+      "donor": "Umm Al-Qura Company",
+      "location": "Sunflower - Arheba",
+      "year": "2020",
+      "scope": "Iron ceiling for cafeteria, mosque, and administration — 1,050 sqm",
+      "contractor": "GACEC"
+    },
+    {
+      "id": "ref-3",
+      "project": "Hamoudi Commercial Center",
+      "client": "Ministry of Awqaf and Islamic Affairs",
+      "donor": "Taiba Investment Company",
+      "location": "Plus Rambo",
+      "year": "2020",
+      "scope": "Concrete works, iron ceiling, and design for first floor",
+      "contractor": "GACEC"
+    },
+    {
+      "id": "ref-4",
+      "project": "Hangar, Arta",
+      "client": "Ministry of Labor CNSS",
+      "donor": "Ministry of Labor CNSS",
+      "location": "Arta Governorate",
+      "year": "2020",
+      "scope": "Hangar execution — 3,000 sqm",
+      "contractor": "GACEC"
+    },
+    {
+      "id": "ref-5",
+      "project": "Mosque Dikhil",
+      "client": "Al-haji Elmi Guesod",
+      "donor": "Al-haji Elmi Guesod",
+      "location": "Dikhil",
+      "year": "2020",
+      "scope": "Mosque for men and women, annexes, and imam's residence — 750 sqm",
+      "contractor": "GACEC"
+    },
+    {
+      "id": "ref-6",
+      "project": "Mosquee Nashroudiin",
+      "client": "Al-haji Osman Okieh",
+      "donor": "Al-haji Osman Okieh",
+      "location": "Djibouti, Plateau de Serpent",
+      "year": "2020",
+      "scope": "Mosque for men and women, annexes, and imam's residence — 1,150 sqm",
+      "contractor": "GACEC"
+    },
+    {
+      "id": "ref-7",
+      "project": "4 Villas Duplex and Terrasse",
+      "client": "Zahra Ibrahim Direh",
+      "donor": "Zahra Ibrahim Direh",
+      "location": "Djibouti, Haramous",
+      "year": "2020",
+      "scope": "4 duplex villas with terraces — 1,600 sqm",
+      "contractor": "GACEC"
+    }
+  ]
+}

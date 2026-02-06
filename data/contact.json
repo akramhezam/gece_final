@@ -1,0 +1,53 @@
+{
+  "company": "GACECCon",
+  "fullName": "Global African Company for Engineering and Construction",
+  "tagline": "Engineering Excellence Across Africa",
+  "headquarters": {
+    "address": "Rue de Geneve, Batiment Haj Elmi Guessod, 1er etage, Appartement No. 205",
+    "city": "Djibouti",
+    "country": "Djibouti",
+    "postalCode": "",
+    "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.7286354898487!2d42.8870!3d11.5806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sDjibouti!5e0!3m2!1sen!2sdj!4v1234567890"
+  },
+  "phone": {
+    "main": "+253 21 34 84 38 / 39",
+    "mobile": "+253 77 77 77 44 / 67"
+  },
+  "email": {
+    "general": "gacec.cons@gmail.com",
+    "projects": "eng.khalil@gaceccon.com",
+    "careers": "gacec.cons@gmail.com"
+  },
+  "social": {
+    "linkedin": "https://linkedin.com/company/gaceccon",
+    "twitter": "https://twitter.com/gaceccon",
+    "facebook": "https://facebook.com/gaceccon",
+    "instagram": "https://instagram.com/gaceccon",
+    "youtube": "https://youtube.com/@gaceccon"
+  },
+  "regionalOffices": [
+    {
+      "city": "Nairobi",
+      "country": "Kenya",
+      "address": "Westlands Business Park, Tower B",
+      "phone": "+254 20 123 4567"
+    },
+    {
+      "city": "Accra",
+      "country": "Ghana",
+      "address": "Airport City, Building 7",
+      "phone": "+233 30 277 8899"
+    },
+    {
+      "city": "Johannesburg",
+      "country": "South Africa",
+      "address": "Sandton City, Floor 12",
+      "phone": "+27 11 234 5678"
+    }
+  ],
+  "workingHours": {
+    "weekdays": "Monday - Friday: 8:00 AM - 6:00 PM",
+    "saturday": "Saturday: 9:00 AM - 2:00 PM",
+    "sunday": "Sunday: Closed"
+  }
+}

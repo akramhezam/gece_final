@@ -1,0 +1,180 @@
+{
+  "services": [
+    {
+      "id": "building-construction",
+      "title": "Building Construction",
+      "shortDesc": "Commercial, residential, and mixed-use buildings delivered with precision and safety.",
+      "fullDesc": "From hotels and commercial centers to residential blocks, we deliver end-to-end building projects. Our team manages structural works, finishes, and MEP coordination to ensure quality, safety, and long-term durability in Djibouti’s conditions.",
+      "icon": "building-office-2",
+      "features": [
+        "Commercial and mixed-use buildings",
+        "Residential housing",
+        "Hotels and hospitality",
+        "Structural concrete works",
+        "MEP coordination",
+        "Finishing and fit-out"
+      ],
+      "image": "images/new/optimized/building-office.webp"
+    },
+    {
+      "id": "road-infrastructure",
+      "title": "Road & Infrastructure",
+      "shortDesc": "Roads, access paths, and site infrastructure that connect and enable growth.",
+      "fullDesc": "We build reliable transport and site infrastructure including access roads, culverts, and associated civil works. Our approach prioritizes durability, drainage, and long-term maintenance efficiency.",
+      "icon": "truck",
+      "features": [
+        "Access roads and site grading",
+        "Drainage and culverts",
+        "Concrete paving and hardscape",
+        "Logistics yard preparation",
+        "Utility corridors",
+        "Traffic and safety layouts"
+      ],
+      "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&h=600&fit=crop"
+    },
+    {
+      "id": "water-sewage",
+      "title": "Water & Sewage Networks",
+      "shortDesc": "Water distribution and sewage networks for sustainable urban growth.",
+      "fullDesc": "We deliver water and sewage infrastructure that improves public health and supports development. Our services include pipeline installation, manholes, and integration with existing networks.",
+      "icon": "beaker",
+      "features": [
+        "Water distribution pipelines",
+        "Sewage and drainage lines",
+        "Manholes and inspection chambers",
+        "Pumping and connection works",
+        "Network rehabilitation",
+        "Testing and commissioning"
+      ],
+      "image": "https://images.unsplash.com/photo-1504309092620-4d0ec726efa4?w=800&h=600&fit=crop"
+    },
+    {
+      "id": "metal-structures",
+      "title": "Metal & Iron Structures",
+      "shortDesc": "Custom steel and iron structures for commercial and industrial facilities.",
+      "fullDesc": "Our fabrication and installation services cover iron ceilings, steel framing, and structural elements. We coordinate with architectural and MEP systems for safe, efficient installations.",
+      "icon": "wrench-screwdriver",
+      "features": [
+        "Iron ceilings and roofing",
+        "Steel framing and supports",
+        "Custom fabrication",
+        "On-site installation",
+        "Protective coatings",
+        "Quality inspections"
+      ],
+      "image": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&h=600&fit=crop"
+    },
+    {
+      "id": "hangars-warehouses",
+      "title": "Hangars & Warehouses",
+      "shortDesc": "Large-span structures built for logistics, storage, and operations.",
+      "fullDesc": "We deliver functional hangars and warehouses designed for operational efficiency, clear spans, and heavy-duty use. Projects include foundations, structural steel, and envelope systems.",
+      "icon": "building-office-2",
+      "features": [
+        "Clear-span structural design",
+        "Industrial-grade flooring",
+        "Roofing and cladding",
+        "Loading bay solutions",
+        "Secure access systems",
+        "Drainage and utilities"
+      ],
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=800&h=600&fit=crop"
+    },
+    {
+      "id": "mosque-religious",
+      "title": "Mosque & Religious Works",
+      "shortDesc": "Respectful, detail-oriented construction for religious facilities.",
+      "fullDesc": "We construct mosques and religious facilities with an emphasis on architectural detailing, community needs, and schedule discipline.",
+      "icon": "clipboard-document-check",
+      "features": [
+        "Prayer halls and domes",
+        "Architectural detailing",
+        "Ablution areas",
+        "Lighting and acoustics",
+        "Community spaces",
+        "Finishing and handover"
+      ],
+      "image": "images/new/optimized/mosque-1.webp"
+    },
+    {
+      "id": "foundations",
+      "title": "Foundations",
+      "shortDesc": "Reliable foundation systems for multi-building developments.",
+      "fullDesc": "We deliver foundation works for residential, commercial, and multi-lot developments with rigorous QA/QC and schedule coordination.",
+      "icon": "building-office-2",
+      "features": [
+        "Excavation and leveling",
+        "Rebar and concrete works",
+        "Foundation waterproofing",
+        "Quality testing",
+        "Batch delivery",
+        "Documentation and handover"
+      ],
+      "image": "https://images.unsplash.com/photo-1501183638710-841dd1904471?w=800&h=600&fit=crop"
+    },
+    {
+      "id": "design-studies",
+      "title": "Design & Studies",
+      "shortDesc": "Planning, design coordination, and feasibility support for projects.",
+      "fullDesc": "We support clients with feasibility studies, design coordination, and technical assessments to ensure projects are cost-effective, compliant, and buildable.",
+      "icon": "clipboard-document-check",
+      "features": [
+        "Feasibility studies",
+        "Design coordination",
+        "Site assessments",
+        "Cost and schedule planning",
+        "Regulatory alignment",
+        "Construction planning"
+      ],
+      "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=600&fit=crop"
+    },
+    {
+      "id": "supervision",
+      "title": "Supervision",
+      "shortDesc": "On-site supervision and quality oversight for every stage of construction.",
+      "fullDesc": "We provide dedicated on-site supervision covering daily progress monitoring, safety compliance, workmanship checks, and coordination with contractors and consultants throughout the project lifecycle.",
+      "icon": "clipboard-document-check",
+      "features": [
+        "Daily progress monitoring",
+        "Safety and compliance checks",
+        "Workmanship quality oversight",
+        "Contractor coordination",
+        "Issue identification and resolution",
+        "Progress reporting to clients"
+      ],
+      "image": "https://images.unsplash.com/photo-1611580538824-91f1417aeb70?w=800&h=600&fit=crop"
+    },
+    {
+      "id": "surveying",
+      "title": "Surveying",
+      "shortDesc": "Precise land and site surveying using modern instruments and GPS technology.",
+      "fullDesc": "Our surveying team delivers accurate topographic, boundary, and control surveys using total stations, GPS devices, and laser levels. Results feed directly into design and construction planning.",
+      "icon": "bolt",
+      "features": [
+        "Topographic and boundary surveys",
+        "Control point establishment",
+        "GPS and total station mapping",
+        "Site layout and staking",
+        "Volume and grading calculations",
+        "As-built survey documentation"
+      ],
+      "image": "https://images.unsplash.com/photo-1611580538824-91f1417aeb70?w=800&h=600&fit=crop"
+    },
+    {
+      "id": "consulting",
+      "title": "Consulting",
+      "shortDesc": "Expert technical and financial consulting to guide informed project decisions.",
+      "fullDesc": "We advise clients on project feasibility, risk assessment, budgeting, and technical strategy. Our consultants bring deep industry experience to help stakeholders make sound decisions before and during construction.",
+      "icon": "clipboard-document-check",
+      "features": [
+        "Project feasibility assessments",
+        "Technical and financial risk analysis",
+        "Budget and schedule advisory",
+        "Regulatory and compliance guidance",
+        "Stakeholder alignment workshops",
+        "Strategic project planning"
+      ],
+      "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=600&fit=crop"
+    }
+  ]
+}

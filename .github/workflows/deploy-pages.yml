@@ -1,0 +1,33 @@
+name: Deploy static site to GitHub Pages
+
+permissions:
+  contents: write
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Prepare GitHub Pages content
+        run: |
+          set -euo pipefail
+          rm -rf site
+          mkdir site
+          rsync -a --exclude='.git' --exclude='.github' --exclude='site' --exclude='data/gacec book.pdf' . site
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: ./site
+          commit_message: "Deploy static site"

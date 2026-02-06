@@ -1,0 +1,73 @@
+{
+  "bioHtml": "<p><strong>GACEC</strong> (Global African Company for Engineering and Construction) is a Djibouti-based construction firm delivering reliable civil and building works across the country.</p><p>With over <strong>20 years of team experience</strong>, we combine skilled engineers, planners, and site crews to deliver buildings, roads, water and sewage networks, metal structures, hangars, and foundations.</p><p>We focus on practical delivery, safety, and long-term durability while collaborating closely with clients and local stakeholders.</p>",
+  "mission": "We are fully responsible for providing our services professionally in accordance with best practices, standards and quality specifications. We understand the demands and aspirations of our customers and build their dreams with a creative touch that exceeds their expectations.",
+  "vision": "Global leadership in the field of engineering and construction.",
+  "stats": [
+    {
+      "label": "Years Experience",
+      "value": "20+"
+    },
+    {
+      "label": "Core Disciplines",
+      "value": "8"
+    },
+    {
+      "label": "Recent Projects",
+      "value": "30+"
+    },
+    {
+      "label": "Local Partners",
+      "value": "50+"
+    }
+  ],
+  "team": [
+    {
+      "name": "Engineering Workforce Size",
+      "position": "Engineers & Supervisors",
+      "bio": "Total number of engineers and supervisors available for immediate assignment.",
+      "image": "images/logo23.png",
+      "linkedin": "#"
+    },
+    {
+      "name": "Local Teams in Djibouti",
+      "position": "On-the-ground Teams",
+      "bio": "On-the-ground engineering and technical teams for site coordination and supervision.",
+      "image": "images/logo24.png",
+      "linkedin": "#"
+    },
+    {
+      "name": "Technical Support Groups",
+      "position": "Skilled Technicians",
+      "bio": "Specialized technicians and skilled laborers ready to support project delivery.",
+      "image": "images/logo25.png",
+      "linkedin": "#"
+    }
+  ],
+  "values": [
+    {
+      "title": "Responsibility",
+      "description": "We take full ownership of every project from planning through delivery, ensuring accountability at every stage.",
+      "icon": "shield-check"
+    },
+    {
+      "title": "Professionalism",
+      "description": "Our team brings over 20 years of combined experience, applying industry best practices and standards to all work.",
+      "icon": "star"
+    },
+    {
+      "title": "Quality",
+      "description": "We deliver workmanship that lasts, using premium materials and rigorous quality control in Djibouti's conditions.",
+      "icon": "lightbulb"
+    },
+    {
+      "title": "Creativity",
+      "description": "We approach every project with a creative touch, turning client aspirations into innovative, functional solutions.",
+      "icon": "hard-hat"
+    },
+    {
+      "title": "Customer Satisfaction",
+      "description": "We understand client demands and aspirations, exceeding expectations through close collaboration and attentive service.",
+      "icon": "users"
+    }
+  ]
+}
