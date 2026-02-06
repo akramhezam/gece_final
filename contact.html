@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact GACEC for your construction and engineering needs in Djibouti. Reach our team for project inquiries and partnerships.">
+    <meta name="keywords" content="contact GACEC, construction inquiry, engineering consultation, Djibouti construction company">
+    <meta name="author" content="GACEC">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://gaceccon.com/contact.html">
+
+    <title>Contact | GACEC - Engineering Excellence in Djibouti</title>
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#0B1F3B',
+                        surface: '#F6F8FA',
+                        'on-surface': '#0E141B',
+                        navy: '#0B1F3B',
+                        industrial: {
+                            DEFAULT: '#0B1F3B',
+                            light: '#4A5B6A',
+                            dark: '#061428'
+                        },
+                        safety: {
+                            DEFAULT: '#3B7A57',
+                            vivid: '#2F6B4B'
+                        },
+                        concrete: {
+                            light: '#F6F8FA',
+                            DEFAULT: '#E9EEF3',
+                            dark: '#D6DEE6'
+                        }
+                    },
+                    fontFamily: {
+                        heading: ['"IBM Plex Sans"', 'sans-serif'],
+                        body: ['"Source Sans 3"', 'sans-serif'],
+                        mono: ['"IBM Plex Mono"', 'monospace']
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Source+Sans+3:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/theme.css">
+
+    <!-- Custom Styles -->
+    <style>
+        /* Form inputs */
+        .form-input { transition: all .3s ease; }
+        .form-input:focus {
+            border-color: #3B7A57;
+            box-shadow: 0 0 0 4px rgba(194,117,48, 0.15);
+        }
+
+        /* Contact cards */
+        .contact-card {
+            transition: transform .38s cubic-bezier(.4,0,.2,1),
+                        box-shadow .38s cubic-bezier(.4,0,.2,1);
+        }
+        .contact-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 16px 40px -10px rgba(26,63,72, 0.28);
+        }
+
+        /* Office cards */
+        .office-card {
+            transition: transform .38s cubic-bezier(.4,0,.2,1);
+        }
+        .office-card:hover { transform: translateY(-5px); }
+        .office-card:hover .office-icon {
+            background-color: #3B7A57;
+            color: #fff;
+        }
+        .office-icon { transition: all .3s ease; }
+
+        /* Success message */
+        .success-message { display: none; animation: slideIn .5s ease; }
+        .success-message.show { display: block; }
+        @keyframes slideIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to   { opacity: 1; transform: translateY(0); }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            .contact-card, .office-card, .office-icon, .form-input { transition: none; }
+        }
+    </style>
+</head>
+<body class="bg-white">
+    <!-- ========== NAVIGATION ========== -->
+    <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-industrial">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <a href="index.html" class="flex items-center space-x-3">
+                    <img src="images/logo24.png" alt="GACEC Logo" class="nav-logo-img">
+                    <div>
+                        <span class="text-white font-heading font-bold text-xl tracking-tight">GACEC</span>
+                        <span class="hidden sm:block text-gray-300 text-xs">Engineering Excellence</span>
+                    </div>
+                </a>
+
+                <div class="hidden lg:flex items-center space-x-8">
+                    <a href="index.html" class="text-gray-300 font-medium hover:text-safety transition-colors relative group">Home<span class="absolute bottom-0 left-0 w-full h-0.5 bg-safety transform scale-x-0 group-hover:scale-x-100 transition-transform"></span></a>
+                    <a href="book.html" class="text-gray-300 font-medium hover:text-safety transition-colors relative group">Company<span class="absolute bottom-0 left-0 w-full h-0.5 bg-safety transform scale-x-0 group-hover:scale-x-100 transition-transform"></span></a>
+                    <a href="services.html" class="text-gray-300 font-medium hover:text-safety transition-colors relative group">Services<span class="absolute bottom-0 left-0 w-full h-0.5 bg-safety transform scale-x-0 group-hover:scale-x-100 transition-transform"></span></a>
+                    <a href="projects.html" class="text-gray-300 font-medium hover:text-safety transition-colors relative group">Projects<span class="absolute bottom-0 left-0 w-full h-0.5 bg-safety transform scale-x-0 group-hover:scale-x-100 transition-transform"></span></a>
+                    <a href="staff.html" class="text-gray-300 font-medium hover:text-safety transition-colors relative group">Resources<span class="absolute bottom-0 left-0 w-full h-0.5 bg-safety transform scale-x-0 group-hover:scale-x-100 transition-transform"></span></a>
+                    <a href="gallery.html" class="text-gray-300 font-medium hover:text-safety transition-colors relative group">Gallery<span class="absolute bottom-0 left-0 w-full h-0.5 bg-safety transform scale-x-0 group-hover:scale-x-100 transition-transform"></span></a>
+                    <a href="contact.html" class="bg-safety hover:bg-safety-vivid text-white px-6 py-3 rounded-lg font-semibold transition-all btn-primary">Contact</a>
+                </div>
+
+                <button id="mobile-menu-btn" class="lg:hidden text-white p-2" aria-label="Toggle mobile menu">
+                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path id="menu-icon" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                </button>
+            </div>
+
+            <div id="mobile-menu" class="mobile-menu lg:hidden bg-industrial-dark rounded-b-xl">
+                <div class="px-4 py-6 space-y-4">
+                    <a href="index.html" class="block text-gray-300 font-medium py-2 hover:text-safety transition-colors pl-4">Home</a>
+                    <a href="book.html" class="block text-gray-300 font-medium py-2 hover:text-safety transition-colors pl-4">Company</a>
+                    <a href="services.html" class="block text-gray-300 font-medium py-2 hover:text-safety transition-colors pl-4">Services</a>
+                    <a href="projects.html" class="block text-gray-300 font-medium py-2 hover:text-safety transition-colors pl-4">Projects</a>
+                    <a href="staff.html" class="block text-gray-300 font-medium py-2 hover:text-safety transition-colors pl-4">Resources</a>
+                    <a href="gallery.html" class="block text-gray-300 font-medium py-2 hover:text-safety transition-colors pl-4">Gallery</a>
+                    <a href="contact.html" class="block text-white font-medium py-2 border-l-4 border-safety pl-4">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ========== PAGE HEADER ========== -->
+    <section class="relative h-screen min-h-[700px] overflow-hidden">
+        <img src="images/new/optimized/villa-1.webp" alt="" class="page-header-bg" style="object-position: center 45%;" loading="eager" decoding="async" fetchpriority="high">
+        <div class="page-header-overlay"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center page-hero-card">
+                <nav class="flex justify-center mb-6" aria-label="Breadcrumb">
+                    <ol class="flex items-center space-x-2 text-sm">
+                        <li><a href="index.html" class="text-gray-400 hover:text-safety transition-colors">Home</a></li>
+                        <li><span class="text-gray-500">/</span></li>
+                        <li><span class="text-safety">Contact</span></li>
+                    </ol>
+                </nav>
+                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-heading font-bold text-white mb-6">
+                    Get In <span class="text-safety">Touch</span>
+                </h1>
+                <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+                    Ready to start your next project? Our team is here to help. Reach out to us and let's build something great together.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CONTACT CARDS ========== -->
+    <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-3 gap-6">
+                <!-- Project Inquiries -->
+                <div class="contact-card bg-white rounded-2xl shadow-xl p-8 text-center">
+                    <div class="w-16 h-16 bg-safety/10 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-8 h-8 text-safety" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-heading font-bold text-industrial mb-2">Project Inquiries</h3>
+                    <p class="text-industrial-light mb-4">Reach our engineering team</p>
+                    <a href="mailto:eng.khalil@gaceccon.com" class="text-safety hover:text-safety-vivid font-semibold text-lg">eng.khalil@gaceccon.com</a>
+                </div>
+
+                <!-- General Email -->
+                <div class="contact-card bg-white rounded-2xl shadow-xl p-8 text-center">
+                    <div class="w-16 h-16 bg-safety/10 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-8 h-8 text-safety" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-heading font-bold text-industrial mb-2">General Email</h3>
+                    <p class="text-industrial-light mb-4">We'll respond within 24 hours</p>
+                    <a href="mailto:gacec.cons@gmail.com" class="text-safety hover:text-safety-vivid font-semibold text-lg">gacec.cons@gmail.com</a>
+                </div>
+
+                <!-- Visit Us -->
+                <div class="contact-card bg-white rounded-2xl shadow-xl p-8 text-center">
+                    <div class="w-16 h-16 bg-safety/10 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-8 h-8 text-safety" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-heading font-bold text-industrial mb-2">Visit Us</h3>
+                    <p class="text-industrial-light mb-4">Come say hello at our HQ</p>
+                    <p class="text-safety font-semibold">GENEVE STREET, HAJ ELMI GASSOD BUILDING, DJIBOUTI</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CONTACT FORM & MAP SECTION ========== -->
+    <section class="py-20 lg:py-32 bg-concrete-light">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-12 lg:gap-20">
+                <!-- Contact Form -->
+                <div class="slide-left">
+                    <span class="section-pill">Send Us a Message</span>
+                    <h2 class="text-3xl sm:text-4xl font-heading font-bold text-industrial mb-6">
+                        Let's Discuss Your Project
+                    </h2>
+                    <p class="text-industrial-light mb-8">
+                        Fill out the form below and one of our experts will get back to you within 24 hours to discuss your project requirements.
+                    </p>
+
+                    <!-- Success Message -->
+                    <div id="success-message" class="success-message bg-green-100 border border-green-400 text-green-700 px-6 py-4 rounded-xl mb-6">
+                        <div class="flex items-center">
+                            <svg class="w-6 h-6 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            </svg>
+                            <span class="font-semibold">Thank you! Your message has been sent successfully.</span>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form - Using Formspree placeholder -->
+                    <form id="contact-form" action="https://formspree.io/f/your-form-id" method="POST" class="space-y-6">
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <div>
+                                <label for="name" class="block text-sm font-semibold text-industrial mb-2">Full Name *</label>
+                                <input type="text" id="name" name="name" required
+                                       class="form-input w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none"
+                                       placeholder="John Doe">
+                            </div>
+                            <div>
+                                <label for="email" class="block text-sm font-semibold text-industrial mb-2">Email Address *</label>
+                                <input type="email" id="email" name="email" required
+                                       class="form-input w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none"
+                                       placeholder="john@example.com">
+                            </div>
+                        </div>
+
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <div>
+                                <label for="phone" class="block text-sm font-semibold text-industrial mb-2">Phone Number</label>
+                                <input type="tel" id="phone" name="phone"
+                                       class="form-input w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none"
+                                       placeholder="+253 XX XX XX XX">
+                            </div>
+                            <div>
+                                <label for="company" class="block text-sm font-semibold text-industrial mb-2">Company/Organization</label>
+                                <input type="text" id="company" name="company"
+                                       class="form-input w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none"
+                                       placeholder="Your Company">
+                            </div>
+                        </div>
+
+                        <div>
+                            <label for="service" class="block text-sm font-semibold text-industrial mb-2">Service Interested In *</label>
+                            <select id="service" name="service" required
+                                    class="form-input w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none bg-white">
+                                <option value="">Select a service</option>
+                                <option value="building">Building Construction</option>
+                                <option value="roads">Road & Infrastructure</option>
+                                <option value="water">Water & Sewage</option>
+                                <option value="metal">Metal/Iron Structures</option>
+                                <option value="hangars">Hangars/Warehouses</option>
+                                <option value="mosque">Mosque/Religious</option>
+                                <option value="foundations">Foundations</option>
+                                <option value="design">Design & Studies</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <label for="budget" class="block text-sm font-semibold text-industrial mb-2">Estimated Budget</label>
+                            <select id="budget" name="budget"
+                                    class="form-input w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none bg-white">
+                                <option value="">Select budget range</option>
+                                <option value="under-1m">Under $1 Million</option>
+                                <option value="1m-10m">$1 Million - $10 Million</option>
+                                <option value="10m-50m">$10 Million - $50 Million</option>
+                                <option value="50m-100m">$50 Million - $100 Million</option>
+                                <option value="over-100m">Over $100 Million</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <label for="message" class="block text-sm font-semibold text-industrial mb-2">Project Details *</label>
+                            <textarea id="message" name="message" rows="5" required
+                                      class="form-input w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none resize-none"
+                                      placeholder="Tell us about your project..."></textarea>
+                        </div>
+
+                        <div class="flex items-start">
+                            <input type="checkbox" id="privacy" name="privacy" required
+                                   class="mt-1 w-5 h-5 text-safety border-gray-300 rounded focus:ring-safety">
+                            <label for="privacy" class="ml-3 text-sm text-industrial-light">
+                                I agree to the <a href="#" class="text-safety hover:underline">Privacy Policy</a> and consent to being contacted regarding my inquiry.
+                            </label>
+                        </div>
+
+                        <button type="submit" class="btn-primary w-full bg-safety hover:bg-safety-vivid text-white px-8 py-4 rounded-xl font-heading font-semibold text-lg inline-flex items-center justify-center group">
+                            Send Message
+                            <svg class="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Map & Info -->
+                <div class="slide-right">
+                    <div class="bg-white rounded-2xl shadow-xl overflow-hidden h-full">
+                        <!-- Map -->
+                        <div class="h-80 bg-gray-200">
+                            <iframe
+                                src="https://maps.google.com/maps?q=Djibouti&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                                width="100%"
+                                height="100%"
+                                style="border:0;"
+                                allowfullscreen=""
+                                loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"
+                                title="GACEC Headquarters Location">
+                            </iframe>
+                        </div>
+
+                        <!-- Office Info -->
+                        <div class="p-8">
+                            <h3 class="text-xl font-heading font-bold text-industrial mb-6">Headquarters</h3>
+
+                            <div class="space-y-4">
+                                <div class="flex items-start space-x-4">
+                                    <div class="w-10 h-10 bg-safety/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                                        <svg class="w-5 h-5 text-safety" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <p class="font-semibold text-industrial">Address</p>
+                                        <p class="text-industrial-light">GENEVE STREET, HAJ ELMI GASSOD BUILDING<br>DJIBOUTI</p>
+                                    </div>
+                                </div>
+
+                                <div class="flex items-start space-x-4">
+                                    <div class="w-10 h-10 bg-safety/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                                        <svg class="w-5 h-5 text-safety" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <p class="font-semibold text-industrial">Working Hours</p>
+                                        <p class="text-industrial-light">Monday - Friday: 8:00 AM - 6:00 PM<br>Saturday: 9:00 AM - 2:00 PM</p>
+                                    </div>
+                                </div>
+
+                                <div class="flex items-start space-x-4">
+                                    <div class="w-10 h-10 bg-safety/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                                        <svg class="w-5 h-5 text-safety" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <p class="font-semibold text-industrial">Email Departments</p>
+                                        <p class="text-industrial-light">
+                                            Engineering: <a href="mailto:eng.khalil@gaceccon.com" class="text-safety hover:underline">eng.khalil@gaceccon.com</a><br>
+                                            General: <a href="mailto:gacec.cons@gmail.com" class="text-safety hover:underline">gacec.cons@gmail.com</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== REGIONAL OFFICES ========== -->
+    <section class="py-20 lg:py-32 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16 fade-in">
+                <span class="section-pill">Our Locations</span>
+                <h2 class="text-3xl sm:text-4xl lg:text-5xl font-heading font-bold text-industrial mb-6">
+                    Headquarters
+                </h2>
+                <p class="text-industrial-light text-lg">
+                    Based in Djibouti and focused on local delivery.
+                </p>
+            </div>
+
+            <div id="regional-offices" class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="office-card bg-concrete-light p-8 rounded-2xl fade-in">
+                    <div class="office-icon w-16 h-16 bg-safety/10 rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-safety" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-heading font-bold text-industrial mb-2">Djibouti, Djibouti</h3>
+                    <p class="text-industrial-light mb-4">GENEVE STREET, HAJ ELMI GASSOD BUILDING</p>
+                    <a href="mailto:gacec.cons@gmail.com" class="text-safety hover:text-safety-vivid font-medium">gacec.cons@gmail.com</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FAQ SECTION ========== -->
+    <section class="py-20 lg:py-32 bg-industrial">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 fade-in">
+                <span class="inline-block bg-white/10 text-safety font-semibold px-4 py-2 rounded-full text-sm mb-4">
+                    FAQ
+                </span>
+                <h2 class="text-3xl sm:text-4xl lg:text-5xl font-heading font-bold text-white mb-6">
+                    Frequently Asked Questions
+                </h2>
+            </div>
+
+            <div class="space-y-4">
+                <!-- FAQ Item 1 -->
+                <div class="bg-white/5 backdrop-blur-sm rounded-xl overflow-hidden fade-in">
+                    <button class="faq-btn w-full px-6 py-4 text-left flex items-center justify-between" aria-expanded="false">
+                        <span class="font-heading font-semibold text-white">What types of projects does GACEC handle?</span>
+                        <svg class="faq-icon w-6 h-6 text-safety transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-4">
+                        <p class="text-gray-300">We handle a wide range of construction projects including commercial and residential buildings, roads and highways, bridges, water treatment facilities, power infrastructure, and more. Our team has experience with projects ranging from $1 million to over $500 million.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="bg-white/5 backdrop-blur-sm rounded-xl overflow-hidden fade-in" style="transition-delay: 0.1s;">
+                    <button class="faq-btn w-full px-6 py-4 text-left flex items-center justify-between" aria-expanded="false">
+                        <span class="font-heading font-semibold text-white">Which countries do you operate in?</span>
+                        <svg class="faq-icon w-6 h-6 text-safety transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-4">
+                        <p class="text-gray-300">We operate primarily in Djibouti, partnering with local stakeholders to deliver reliable construction and infrastructure projects.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="bg-white/5 backdrop-blur-sm rounded-xl overflow-hidden fade-in" style="transition-delay: 0.2s;">
+                    <button class="faq-btn w-full px-6 py-4 text-left flex items-center justify-between" aria-expanded="false">
+                        <span class="font-heading font-semibold text-white">How do I request a project quote?</span>
+                        <svg class="faq-icon w-6 h-6 text-safety transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-4">
+                        <p class="text-gray-300">You can request a quote by filling out the contact form above or emailing <a href="mailto:eng.khalil@gaceccon.com" class="text-safety hover:underline">eng.khalil@gaceccon.com</a>. Please provide project location, scope, timeline, and budget range.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="bg-white/5 backdrop-blur-sm rounded-xl overflow-hidden fade-in" style="transition-delay: 0.3s;">
+                    <button class="faq-btn w-full px-6 py-4 text-left flex items-center justify-between" aria-expanded="false">
+                        <span class="font-heading font-semibold text-white">What certifications does GACEC hold?</span>
+                        <svg class="faq-icon w-6 h-6 text-safety transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-4">
+                        <p class="text-gray-300">We hold ISO 9001 (Quality Management), ISO 14001 (Environmental Management), and OHSAS 18001 (Occupational Health & Safety) certifications. We also have LEED-accredited professionals on staff and are registered with relevant construction regulatory bodies in all countries where we operate.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 5 -->
+                <div class="bg-white/5 backdrop-blur-sm rounded-xl overflow-hidden fade-in" style="transition-delay: 0.4s;">
+                    <button class="faq-btn w-full px-6 py-4 text-left flex items-center justify-between" aria-expanded="false">
+                        <span class="font-heading font-semibold text-white">Do you offer maintenance services after project completion?</span>
+                        <svg class="faq-icon w-6 h-6 text-safety transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-4">
+                        <p class="text-gray-300">Yes, we offer comprehensive maintenance and facility management services. All our projects come with a warranty period, and we can establish long-term maintenance contracts to ensure your infrastructure continues to perform optimally.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="bg-industrial-dark text-white pt-20 pb-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+                <div>
+                    <a href="index.html" class="flex items-center space-x-3 mb-6">
+                        <img src="images/logo24.png" alt="GACEC Logo" class="w-10 h-10 object-cover rounded-lg">
+                        <div><span class="font-heading font-bold text-xl">GACEC</span></div>
+                    </a>
+                    <p class="text-gray-400 mb-6 leading-relaxed">Global African Company for Engineering and Construction. Building Djibouti’s future with precision, power, and progress since 2004.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-safety transition-colors" aria-label="LinkedIn"><svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg></a>
+                        <a href="#" class="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-safety transition-colors" aria-label="Twitter"><svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg></a>
+                        <a href="#" class="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-safety transition-colors" aria-label="Facebook"><svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
+                        <a href="#" class="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-safety transition-colors" aria-label="Instagram"><svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></a>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="font-heading font-bold text-lg mb-6">Quick Links</h3>
+                    <ul class="space-y-4">
+                        <li><a href="book.html" class="text-gray-400 hover:text-safety transition-colors">Company</a></li>
+                        <li><a href="services.html" class="text-gray-400 hover:text-safety transition-colors">Our Services</a></li>
+                        <li><a href="projects.html" class="text-gray-400 hover:text-safety transition-colors">Projects</a></li>
+                        <li><a href="staff.html" class="text-gray-400 hover:text-safety transition-colors">Resources</a></li>
+                        <li><a href="contact.html" class="text-gray-400 hover:text-safety transition-colors">Contact</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-safety transition-colors">Careers</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="font-heading font-bold text-lg mb-6">Our Services</h3>
+                    <ul class="space-y-4">
+                        <li><a href="services.html#building-construction" class="text-gray-400 hover:text-safety transition-colors">Building Construction</a></li>
+                        <li><a href="services.html#road-infrastructure" class="text-gray-400 hover:text-safety transition-colors">Road & Infrastructure</a></li>
+                        <li><a href="services.html#water-sewage" class="text-gray-400 hover:text-safety transition-colors">Water & Sewage</a></li>
+                        <li><a href="services.html#metal-structures" class="text-gray-400 hover:text-safety transition-colors">Metal/Iron Structures</a></li>
+                        <li><a href="services.html#design-studies" class="text-gray-400 hover:text-safety transition-colors">Design & Studies</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="font-heading font-bold text-lg mb-6">Contact</h3>
+                    <ul class="space-y-4">
+                        <li class="flex items-start space-x-3">
+                            <svg class="w-6 h-6 text-safety flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                            <span class="text-gray-400">GENEVE STREET, HAJ ELMI GASSOD BUILDING<br>DJIBOUTI</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <svg class="w-6 h-6 text-safety flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                            <a href="mailto:eng.khalil@gaceccon.com" class="text-gray-400 hover:text-safety transition-colors">eng.khalil@gaceccon.com</a>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <svg class="w-6 h-6 text-safety flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                            <a href="mailto:gacec.cons@gmail.com" class="text-gray-400 hover:text-safety transition-colors">gacec.cons@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-white/10 pt-8">
+                <div class="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+                    <p class="text-gray-400 text-sm">&copy; 2026 GACEC. All rights reserved.</p>
+                    <div class="flex space-x-6">
+                        <a href="#" class="text-gray-400 hover:text-safety text-sm transition-colors">Privacy Policy</a>
+                        <a href="#" class="text-gray-400 hover:text-safety text-sm transition-colors">Terms of Service</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button id="back-to-top" class="fixed bottom-8 right-8 w-12 h-12 bg-safety text-white rounded-full shadow-lg flex items-center justify-center opacity-0 invisible transition-all hover:bg-safety-vivid focus:outline-none focus:ring-2 focus:ring-safety focus:ring-offset-2 z-50" aria-label="Back to top">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"/></svg>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>

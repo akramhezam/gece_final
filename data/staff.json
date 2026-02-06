@@ -1,0 +1,26 @@
+{
+  "title": "Workforce",
+  "description": "Our workforce combines experienced engineers, supervisors, and skilled technical teams ready for rapid deployment across Djibouti.",
+  "items": [
+    {
+      "title": "Engineering Workforce Size",
+      "detail": "Total number of engineers and supervisors available for immediate assignment.",
+      "availability": "5 Engineers (Civil, Mechanical, Electrical) + 6 Supervisors."
+    },
+    {
+      "title": "Local Teams in Djibouti",
+      "detail": "On-the-ground engineering and technical teams.",
+      "availability": "Core team (5 staff) for site coordination and initial supervision."
+    },
+    {
+      "title": "Available Specializations",
+      "detail": "Experts in fields like Project Management, Construction Design, and Quality Control (QC).",
+      "availability": "One available PMP engineer, and one civil designer."
+    },
+    {
+      "title": "Technical Support Groups",
+      "detail": "Specialized technicians and skilled laborers.",
+      "availability": "15 highly skilled technicians and laborers."
+    }
+  ]
+}
