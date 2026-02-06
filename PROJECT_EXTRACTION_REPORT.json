@@ -1,0 +1,196 @@
+{
+  "extraction_summary": {
+    "pdf_path": "/home/akram/Desktop/test/gravity/data/gacec book.pdf",
+    "total_pages": 24,
+    "total_images_extracted": 34,
+    "output_directory": "/home/akram/Desktop/test/gravity/images/projects/",
+    "formats": ["PNG (original)", "WebP (optimized)"],
+    "extraction_date": "2026-02-06"
+  },
+  "projects": [
+    {
+      "id": "apt-840",
+      "title": "840 Apartments",
+      "year": "2020",
+      "category": "Buildings",
+      "type": "Foundations for 27 buildings",
+      "client": "Ministry of Planning and Development",
+      "donor": "",
+      "location": "PK-13",
+      "shortDesc": "Foundations for 27 buildings, each 200 square meters.",
+      "fullDesc": "Implementing the foundations for 27 buildings, each building is 200 square meters. Project owner: Ministry of Planning and Development. Implemented by BINAYA-IMMO GROUP.",
+      "total_area": "5,400 m²",
+      "pdf_page": 6,
+      "imageUrls": ["images/projects/project-003.webp"],
+      "featured": true,
+      "extracted_images": {
+        "png": ["project-003.png"],
+        "webp": ["project-003.webp"]
+      }
+    },
+    {
+      "id": "al-rayyan-cafeteria",
+      "title": "Al Rayyan Cafeteria and Mosque",
+      "year": "2020",
+      "category": "Religious",
+      "type": "Iron ceiling works",
+      "client": "Ministry of Awqaf and Islamic Affairs",
+      "donor": "",
+      "location": "Sunflower - Arheba",
+      "shortDesc": "Iron ceiling works for cafeteria, mosque, and administration.",
+      "fullDesc": "Executing the iron ceiling of Al Rayyan Cafeteria, the mosque, and the administration with an area of 1050 square meters. Implemented by GACEC.",
+      "total_area": "1,050 m²",
+      "pdf_page": 8,
+      "imageUrls": ["images/projects/project-005.webp"],
+      "featured": true,
+      "extracted_images": {
+        "png": ["project-005.png"],
+        "webp": ["project-005.webp"]
+      }
+    },
+    {
+      "id": "hamoudi-center",
+      "title": "Hamoudi Commercial Center",
+      "year": "2020",
+      "category": "Commercial",
+      "type": "Concrete works, iron ceiling, and design",
+      "client": "Ministry of Awqaf and Islamic Affairs",
+      "donor": "",
+      "location": "Plus Rambo",
+      "shortDesc": "Concrete works for first floor, iron ceiling, and design.",
+      "fullDesc": "Implementation of concrete works for the first floor with iron ceiling work and design for the project. Implemented by GACEC.",
+      "total_area": "Not specified",
+      "pdf_page": 10,
+      "imageUrls": ["images/projects/project-007.webp"],
+      "featured": false,
+      "extracted_images": {
+        "png": ["project-007.png"],
+        "webp": ["project-007.webp"]
+      }
+    },
+    {
+      "id": "cnss-hangar",
+      "title": "CNSS Hangar",
+      "year": "2020",
+      "category": "Infrastructure",
+      "type": "Hangar construction",
+      "client": "Ministry of Labor CNSS",
+      "donor": "Ministry of Labor CNSS",
+      "location": "Arta Governorate",
+      "shortDesc": "Execution of a 3000 square meter hangar.",
+      "fullDesc": "Execution of the hangar with an area of 3000 square meters. Private contract. Implemented by GACEC.",
+      "total_area": "3,000 m²",
+      "pdf_page": 12,
+      "imageUrls": ["images/projects/project-009.webp"],
+      "featured": false,
+      "extracted_images": {
+        "png": ["project-009.png"],
+        "webp": ["project-009.webp"]
+      }
+    },
+    {
+      "id": "mosque-dikhil",
+      "title": "Mosque Dikhil",
+      "year": "2012",
+      "category": "Religious",
+      "type": "Mosque construction",
+      "client": "Al-haji Elmi Guesod",
+      "donor": "Al-haji Elmi Guesod",
+      "location": "Dikhil",
+      "shortDesc": "Mosque for men and women with annexes and imam's residence - 750 m².",
+      "fullDesc": "Mosque for men and women, its annexes, and the imam's residence in Mashah - 750 square meters. Implemented by GACEC.",
+      "total_area": "750 m²",
+      "pdf_page": 16,
+      "imageUrls": [
+        "images/projects/project-011.webp",
+        "images/projects/project-012.webp",
+        "images/projects/project-013.webp"
+      ],
+      "featured": true,
+      "extracted_images": {
+        "png": ["project-011.png", "project-012.png", "project-013.png"],
+        "webp": ["project-011.webp", "project-012.webp", "project-013.webp"]
+      }
+    },
+    {
+      "id": "mosquee-nashroudiin",
+      "title": "Mosquée Nashroudiin",
+      "year": "2013",
+      "category": "Religious",
+      "type": "Mosque construction",
+      "client": "Al-haji Osman Okieh",
+      "donor": "Al-haji Osman Okieh",
+      "location": "Djibouti, Plateau de Serpent",
+      "shortDesc": "Mosque with annexes and imam's residence - 1,150 m².",
+      "fullDesc": "Mosque for men and women, its annexes, and the imam's residence in Mashah - 1,150 square meters. Implemented by GACEC.",
+      "total_area": "1,150 m²",
+      "pdf_page": 17,
+      "imageUrls": ["images/projects/project-014.webp"],
+      "featured": false,
+      "extracted_images": {
+        "png": ["project-014.png"],
+        "webp": ["project-014.webp"]
+      }
+    },
+    {
+      "id": "villas-haramous",
+      "title": "4 Villas Duplex and Terrasse",
+      "year": "2014",
+      "category": "Residential",
+      "type": "Residential villas",
+      "client": "Zahra Ibrahim Direh",
+      "donor": "Zahra Ibrahim Direh",
+      "location": "Djibouti, Haramous",
+      "shortDesc": "Four villas duplex and terrasse - 1,600 m².",
+      "fullDesc": "4 villas duplex and terrasse with a total area of 1,600 square meters. Implemented by GACEC.",
+      "total_area": "1,600 m²",
+      "pdf_page": 18,
+      "imageUrls": ["images/projects/project-015.webp"],
+      "featured": false,
+      "extracted_images": {
+        "png": ["project-015.png"],
+        "webp": ["project-015.webp"]
+      }
+    }
+  ],
+  "additional_assets": {
+    "cover_pages": [
+      {"file": "project-000", "page": 1, "description": "Front cover"},
+      {"file": "project-001", "page": 2, "description": "Company branding/logo"},
+      {"file": "project-002", "page": 3, "description": "Introduction page"}
+    ],
+    "company_info": [
+      {"file": "project-004", "page": 5, "description": "Vision and Mission"},
+      {"file": "project-006", "page": 7, "description": "Project overview"},
+      {"file": "project-008", "page": 9, "description": "Additional information"},
+      {"file": "project-010", "page": 11, "description": "Additional information"},
+      {"file": "project-016", "page": 15, "description": "Company information"},
+      {"file": "project-017", "page": 15, "description": "Company information"}
+    ],
+    "gallery_images": [
+      {"files": ["project-018", "project-019", "project-020", "project-021", "project-022", "project-023"], "pages": "18-19"},
+      {"files": ["project-024", "project-025", "project-026", "project-027"], "pages": "20-21"},
+      {"files": ["project-028", "project-029", "project-030", "project-031", "project-032", "project-033"], "pages": "21-24"}
+    ]
+  },
+  "file_statistics": {
+    "png_files": {
+      "count": 34,
+      "total_size": "~51 MB",
+      "size_range": "1.1 KB - 4.1 MB"
+    },
+    "webp_files": {
+      "count": 34,
+      "total_size": "~3-5 MB",
+      "size_range": "1 KB - 246 KB",
+      "compression_quality": "85%",
+      "size_reduction": "70-90%"
+    }
+  },
+  "recommendations": {
+    "image_format": "Use WebP files for web deployment (images/projects/project-XXX.webp)",
+    "update_projects_json": "Update imageUrls in /home/akram/Desktop/test/gravity/data/projects.json to reference new paths",
+    "old_image_cleanup": "Consider removing old images in images/projects_book/ directory",
+    "gallery_usage": "Gallery images (project-018 to project-033) can be used for project portfolio showcase"
+  }
+}
