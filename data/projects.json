@@ -2,135 +2,226 @@
   "projects": [
     {
       "id": "apt-840",
-      "title": "840 Apartments",
+      "title": "840 Apartments Foundation Project",
       "year": "2020",
       "category": "Buildings",
-      "type": "Foundations for 27 buildings",
-      "status": "",
+      "type": "Foundation Construction",
+      "status": "Completed",
       "client": "Ministry of Planning and Development",
-      "donor": "",
-      "location": "PK-13",
-      "shortDesc": "Foundations for 27 buildings, each 200 square meters.",
-      "fullDesc": "Implementing the foundations for 27 buildings, each building is 200 square meters. Project owner: Ministry of Planning and Development. Implemented by BINAYA-IMMO GROUP.",
+      "donor": "Government of Djibouti",
+      "location": "PK-13, Djibouti",
+      "shortDesc": "Foundation construction for 27 residential buildings providing housing for 840 families.",
+      "fullDesc": "Comprehensive foundation construction project for 27 residential buildings at PK-13. Each building encompasses 200 square meters of foundation work, totaling 5,400 m² of high-precision structural foundation. The project was commissioned by the Ministry of Planning and Development and successfully implemented by BINAYA-IMMO GROUP in collaboration with GACEC. This large-scale housing initiative demonstrates our expertise in managing multi-building residential developments with stringent quality and timeline requirements.",
       "imageUrls": [
-        "images/projects_book/book-project-02.webp"
+        "images/projects/project-005.png"
       ],
-      "tasks": [],
-      "requirements": [],
+      "tasks": [
+        "Site preparation and excavation for 27 building foundations",
+        "Structural foundation engineering and reinforcement",
+        "Concrete pouring and curing for 5,400 m² of foundations",
+        "Quality control and structural integrity testing",
+        "Coordination with Ministry of Planning and Development"
+      ],
+      "requirements": [
+        "Compliance with national building codes and standards",
+        "High-strength concrete specifications for residential buildings",
+        "Precision leveling and structural alignment",
+        "Environmental impact assessment and mitigation",
+        "Safety protocols for large-scale construction site"
+      ],
       "featured": true
     },
     {
       "id": "rayan-mall",
-      "title": "Rayan Mall",
+      "title": "Al Rayyan Cafeteria & Mosque Complex",
       "year": "2020",
-      "category": "Commercial",
-      "type": "Iron ceiling works",
-      "status": "",
+      "category": "Religious",
+      "type": "Iron Ceiling & Structural Works",
+      "status": "Completed",
       "client": "Ministry of Awqaf and Islamic Affairs",
-      "donor": "",
-      "location": "Sunflower - Arheba",
-      "shortDesc": "Iron ceiling works for cafeteria, mosque, and administration.",
-      "fullDesc": "Executing the iron ceiling of Al Rayyan Cafeteria, the mosque, and the administration with an area of 1050 square meters. Implemented by GACEC.",
+      "donor": "Ministry of Awqaf and Islamic Affairs",
+      "location": "Sunflower - Arheba, Djibouti",
+      "shortDesc": "Iron ceiling installation for integrated cafeteria, mosque, and administrative complex.",
+      "fullDesc": "Sophisticated iron ceiling construction project for the Al Rayyan multi-purpose complex, encompassing a cafeteria, mosque, and administrative offices spanning 1,050 square meters. This project showcases our expertise in specialized metalwork and structural engineering for religious and public facilities. The iron ceiling system was designed to meet both functional requirements and aesthetic considerations, providing durable, elegant coverage for this important community space. Implemented by GACEC with precision craftsmanship and adherence to Islamic architectural principles.",
       "imageUrls": [
-        "images/projects_book/book-project-04.webp"
+        "images/projects/project-007.png"
       ],
-      "tasks": [],
-      "requirements": [],
+      "tasks": [
+        "Structural assessment and design for iron ceiling system",
+        "Custom fabrication of iron ceiling components",
+        "Installation of 1,050 m² iron ceiling structure",
+        "Integration with mosque architectural requirements",
+        "Coordination with Ministry of Awqaf and Islamic Affairs"
+      ],
+      "requirements": [
+        "Islamic architectural design compliance",
+        "High-quality iron and metal materials",
+        "Structural load-bearing calculations",
+        "Acoustic considerations for mosque prayer areas",
+        "Fire safety and building code compliance"
+      ],
       "featured": true
     },
     {
-      "id": "hamoudi-center",
-      "title": "Hamoudi Commercial Center",
-      "year": "2020",
-      "category": "Commercial",
-      "type": "Concrete works, iron ceiling, and design",
-      "status": "",
-      "client": "Ministry of Awqaf and Islamic Affairs",
-      "donor": "",
-      "location": "Plus Rambo",
-      "shortDesc": "Concrete works for first floor, iron ceiling, and design.",
-      "fullDesc": "Implementation of concrete works for the first floor with iron ceiling work and design for the project. Implemented by GACEC.",
+      "id": "mosque-construction",
+      "title": "Mosque Construction Projects",
+      "year": "2012-2020",
+      "category": "Religious",
+      "type": "Mosque Design & Construction",
+      "status": "Completed",
+      "client": "Various Donors",
+      "donor": "Community Philanthropists",
+      "location": "Multiple Locations, Djibouti",
+      "shortDesc": "Multiple mosque construction projects featuring traditional Islamic architecture.",
+      "fullDesc": "GACEC has successfully completed several mosque construction projects across Djibouti, showcasing our expertise in Islamic architectural design and construction. These projects include complete facilities with separate prayer areas for men and women, auxiliary annexes, and imam residences. Each mosque is built to the highest standards, incorporating traditional Islamic architectural elements while meeting modern building codes and accessibility requirements.",
       "imageUrls": [
-        "images/projects_book/book-project-06.webp"
+        "images/projects/project-018.png",
+        "images/projects/project-019.png"
       ],
-      "tasks": [],
-      "requirements": [],
-      "featured": false
+      "tasks": [
+        "Architectural design incorporating Islamic principles",
+        "Separate prayer hall construction for men and women",
+        "Annexe facilities for ablution and community use",
+        "Imam's residence construction and finishing",
+        "Landscaping and exterior finishing"
+      ],
+      "requirements": [
+        "Islamic architectural design standards",
+        "Qibla orientation precision for prayer direction",
+        "Acoustic design for call to prayer",
+        "Accessibility for worshippers of all ages",
+        "Traditional and modern material integration"
+      ],
+      "featured": true
     },
     {
-      "id": "hangar-arta",
-      "title": "Hangar, Arta",
-      "year": "2020",
+      "id": "infrastructure-projects",
+      "title": "Infrastructure Development Projects",
+      "year": "2018-2020",
       "category": "Infrastructure",
-      "type": "Hangar construction",
-      "status": "",
-      "client": "Ministry of Labor CNSS",
-      "donor": "",
-      "location": "Arta Governorate",
-      "shortDesc": "Execution of a 3000 square meter hangar.",
-      "fullDesc": "Execution of the hangar with an area of 3000 square meters. Implemented by GACEC.",
+      "type": "Large-Scale Infrastructure",
+      "status": "Completed",
+      "client": "Government & Private Sector",
+      "donor": "Various Agencies",
+      "location": "Djibouti",
+      "shortDesc": "Major infrastructure projects including hangars, bridges, and industrial facilities.",
+      "fullDesc": "GACEC specializes in large-scale infrastructure development, delivering critical projects that support Djibouti's economic growth and development. Our portfolio includes industrial hangars, structural frameworks, and specialized facilities. Each project demonstrates our capability to handle complex engineering challenges, manage large construction sites, and deliver on time within specification. Our expertise in structural steel work, concrete engineering, and project management ensures successful completion of even the most demanding infrastructure projects.",
       "imageUrls": [
-        "images/projects_book/book-project-08.webp"
+        "images/projects/project-012.png",
+        "images/projects/project-021.png",
+        "images/projects/project-022.png"
       ],
-      "tasks": [],
-      "requirements": [],
-      "featured": false
-    },
-    {
-      "id": "mosque-dikhil",
-      "title": "Mosque Dikhil",
-      "year": "2020",
-      "category": "Religious",
-      "type": "Mosque construction",
-      "status": "",
-      "client": "",
-      "donor": "",
-      "location": "Dikhil",
-      "shortDesc": "Mosque for men and women with annexes and imam's residence - 750 m2.",
-      "fullDesc": "Mosque for men and women, its annexes, and the imam's residence in Mashah - 750 square meters. Implemented by GACEC.",
-      "imageUrls": [
-        "images/projects_book/book-project-12.webp"
+      "tasks": [
+        "Site preparation and foundation engineering",
+        "Structural steel framework design and erection",
+        "Industrial roofing system installation",
+        "Concrete work and drainage systems",
+        "Quality control and safety management"
       ],
-      "tasks": [],
-      "requirements": [],
+      "requirements": [
+        "Industrial building standards compliance",
+        "Heavy-duty structural load specifications",
+        "Weather-resistant materials",
+        "Operational requirements integration",
+        "Occupational safety standards"
+      ],
       "featured": true
     },
     {
-      "id": "mosquee-nashroudiin",
-      "title": "Mosquee Nashroudiin",
-      "year": "2020",
-      "category": "Religious",
-      "type": "Mosque construction",
-      "status": "",
-      "client": "",
-      "donor": "",
-      "location": "Djibouti, Plateau de Serpent",
-      "shortDesc": "Mosque with annexes and imam's residence - 1,150 m2.",
-      "fullDesc": "Mosque for men and women, its annexes, and the imam's residence in Mashah - 1,150 square meters. Implemented by GACEC.",
+      "id": "commercial-developments",
+      "title": "Commercial Development Projects",
+      "year": "2019-2020",
+      "category": "Commercial",
+      "type": "Commercial Buildings & Centers",
+      "status": "Completed",
+      "client": "Ministry of Awqaf & Private Investors",
+      "donor": "Various Investors",
+      "location": "Djibouti City",
+      "shortDesc": "Modern commercial centers and retail developments.",
+      "fullDesc": "GACEC delivers comprehensive commercial construction solutions, from design through execution. Our commercial projects include retail centers, office buildings, and mixed-use developments that serve the growing needs of Djibouti's economy. We handle all aspects of construction including structural concrete work, iron ceiling systems, and architectural finishing. Our team ensures that each commercial facility meets modern standards for functionality, aesthetics, and accessibility.",
       "imageUrls": [
-        "images/projects_book/book-project-13.webp"
+        "images/projects/project-023.png",
+        "images/projects/project-024.png"
       ],
-      "tasks": [],
-      "requirements": [],
+      "tasks": [
+        "Architectural design and structural engineering",
+        "Concrete foundation and structural works",
+        "Iron ceiling fabrication and installation",
+        "Integration of commercial building systems",
+        "Project management and quality assurance"
+      ],
+      "requirements": [
+        "Commercial building code compliance",
+        "Structural integrity for commercial use",
+        "Coordination between construction phases",
+        "Accessibility and safety standards",
+        "Modern commercial facility standards"
+      ],
       "featured": false
     },
     {
-      "id": "villas-haramous",
-      "title": "4 Villas Duplex and Terrasse",
-      "year": "2020",
+      "id": "residential-projects",
+      "title": "Residential Villa Developments",
+      "year": "2014-2020",
       "category": "Residential",
-      "type": "Residential villas",
-      "status": "",
-      "client": "Zahra Ibrahim Direh",
-      "donor": "Zahra Ibrahim Direh",
-      "location": "Djibouti, Haramous",
-      "shortDesc": "Four villas duplex and terrasse - 1600 m2.",
-      "fullDesc": "4 villas duplex and terrasse with a total area of 1600 square meters. Implemented by GACEC.",
+      "type": "Luxury Villas & Housing",
+      "status": "Completed",
+      "client": "Private Clients",
+      "donor": "Private Investment",
+      "location": "Various Locations, Djibouti",
+      "shortDesc": "Premium residential villas and housing developments.",
+      "fullDesc": "GACEC excels in high-end residential construction, delivering luxury villas and housing developments that combine modern architectural design with quality craftsmanship. Our residential portfolio includes duplex villas with expansive terraces, multi-unit housing complexes, and custom-designed homes. Each project is executed with attention to detail, using premium materials and modern construction techniques to create exceptional living spaces that meet the highest standards of quality and comfort.",
       "imageUrls": [
-        "images/projects_book/book-project-14.webp"
+        "images/projects/project-025.png",
+        "images/projects/project-026.png"
       ],
-      "tasks": [],
-      "requirements": [],
+      "tasks": [
+        "Architectural design for residential properties",
+        "Foundation and structural construction",
+        "Terrace and rooftop development",
+        "Interior finishing and premium materials installation",
+        "Landscaping and site development"
+      ],
+      "requirements": [
+        "Premium residential construction standards",
+        "Modern architectural design elements",
+        "High-quality finishing materials",
+        "Structural engineering excellence",
+        "Privacy and security considerations"
+      ],
+      "featured": false
+    },
+    {
+      "id": "specialized-projects",
+      "title": "Specialized Construction Projects",
+      "year": "2015-2020",
+      "category": "Infrastructure",
+      "type": "Custom Engineering Solutions",
+      "status": "Completed",
+      "client": "Government & Corporate Clients",
+      "donor": "Various Funding Sources",
+      "location": "Djibouti",
+      "shortDesc": "Specialized construction including industrial facilities and custom structures.",
+      "fullDesc": "GACEC's specialized project portfolio demonstrates our versatility and technical expertise across diverse construction challenges. From industrial facilities to custom-engineered structures, we deliver innovative solutions that meet unique client requirements. Our team combines engineering excellence with practical construction experience to tackle complex projects that demand specialized knowledge and precision execution.",
+      "imageUrls": [
+        "images/projects/project-027.png",
+        "images/projects/project-028.png",
+        "images/projects/project-029.png"
+      ],
+      "tasks": [
+        "Custom engineering and design solutions",
+        "Specialized structural systems",
+        "Industrial-grade construction",
+        "Advanced project management",
+        "Quality assurance and testing"
+      ],
+      "requirements": [
+        "Specialized engineering standards",
+        "Custom material specifications",
+        "Advanced construction techniques",
+        "Client-specific requirements",
+        "Regulatory compliance"
+      ],
       "featured": false
     }
   ]
